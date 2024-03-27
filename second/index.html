@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="head" class="row">
+            <div class="col-2 bg-dark ">
+ <img  class=" h-25 ms-5 mt-3" src=" data:image/jpeg;base64,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" alt="">
+            </div>
+        
+     
+            <div class="col-7 bg-dark p-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark  ">
+                    <div class="container-fluid">
+                     
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"id="navbarDropdown" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle text-white me-3" aria-current="page" href="#" data-bs-toggle="dropdown" aria-expanded="false">Games </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item  " href="#">Action</a></li>
+                              <li><a class="dropdown-item " href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item " href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white me-3" href="#">Newswire</a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link text-white me-3 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              videos
+                            </a>
+                        
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled text-white me-3" href="#" tabindex="-1" aria-disabled="true">Download</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled text-white me-3" href="#" tabindex="-1" aria-disabled="true">Store <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled text-white me-3" href="#" tabindex="-1" aria-disabled="true">Support <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                          </li>
+                        </ul>
+                       
+                      
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <div class="col-3 bg-dark   ">
+                    
+                       <form class="d-flex ">
+                         <button type="button" id="hide" class="btn btn-warning me-3  ">GET LOUNCER</button>
+                        
+                         <button id="search" class="btn btn-outline-none text-white rounded-circle me-3" type="submit"><i class="fa-solid fa-magnifying-glass "></i></button>
+                      <div  id="user">
+                      <button type="button" class="btn btn-secondary "><i class="fa-regular fa-user"></i></button>
+                    </div>
+                    </form>
+             
+                     </div>
+        </div>
+
+        <!-- second section -->
+        <div class="row">
+          <div class="col-xl-8 col-md-12  bg-dark">
+       
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner ">
+                <div class="carousel-item active">
+                  <img src="/img/slide-1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/slide-2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/slide-3.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        
+
+          <div class="col-xl-4 col-md-12 bg-dark">
+            <div id="carouselExampleIndicators" class="carousel slide d-flex " data-bs-ride="carousel">
+              <div class="carousel-indicators ">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner text-white ">
+                <div class="carousel-item active text ">
+                  
+                 <p class="align-p">Grand Theft Auto VI</p>
+                 <br>
+                 <h1 class="align-h">Trailer 1</h1>
+                 <button class="align-btn  bg-dark text-white">WATCH NOW</button>
+                </div>
+                <div class="carousel-item">
+                  <P class="align-p">Grand Theft Auto Online</P>
+                  <h1 class="align-h">The Cluckin’ Bell <br> Farm Raid</h1>
+                  <button class="align-btn  bg-dark text-white ">WATCH NOW</button>
+                </div>
+                <div class="carousel-item">
+                  <P class="align-p">Grand Theft Auto Online</P>
+                  <h1 class="align-h">The Chop Shop</h1>
+                  <button class="align-btn  bg-dark text-white" >WATCH NOW</button>
+                </div>
+                <div class="carousel-item">
+                  <P class="align-p">Grand Theft Auto Online</P>
+                  <h1 class="align-h">Speed to Victory in New Drag Races</h1>
+                  <button class="align-btn bg-dark text-white">WATCH NOW</button>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+               
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+               
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- third section -->
+        <div id="third" class="row">
+          <div class="col-12 bg-dark  ">
+            <h1 class="text-white mt-5 mb-3">Newswire</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3   ">
+              <div class="col">
+                <div class="card">
+                  <img src="/img/second-r1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">GTA online</h5>
+                    <p class="card-text">Embrace the maythem of motor war and Get 2X GTA$and RIP</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="/img/secoond-r2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">GTA online</h5>
+                    <p class="card-text">Community showcase:Animals  of sanAndreas</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="/img/second-r3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">GTA online</h5>
+                    <p class="card-text">The Cluckin’Bellfarm Ride chaos Continues With 2X GTA$  and RP Bnuses  </p>
+                  </div>
+                </div>
+              </div>
+    
+               <div class="col">
+                <div class="card">
+                  <img src="/img/third-r1 copy.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">GTA online</h5>
+                    <p class="card-text">GTA Members Can Claim the Pifster881 Super Car Free Green Gear for St.Patrick's Day, and More </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="/img/third-r2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">GTA online</h5>
+                    <p class="card-text">GTA Online:The Cluckin’Bell  Farm Raid Now Available</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="/img/third-r3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Read Dead Online</h5>
+                    <p class="card-text">Delvs into the saint Dens'br Criminal Underground with Blood Money bonos</p>
+                  </div>
+                </div>
+              </div>   
+              
+            </div>
+           
+          </div>
+    
+    
+        </div>
+        <!-- forth-section -->
+        <section class="forth ">
+          <div class="row">
+           <div class="col-12 bg-dark">
+             <h1  class="text-white mt-5 mb-3">featured game</h1>
+             <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4">
+               <div class="col">
+                 <div class="card bg-dark">
+                   <img src="/img/forth-r1 copy.png" class="card-img-top" alt="...">
+                  
+                 </div>
+               </div>
+               <div class="col">
+                 <div class="card bg-dark">
+                   <img src="/img/forth-2.png" class="card-img-top" alt="...">
+                 
+                 </div>
+               </div>
+               <div class="col">
+                 <div class="card bg-dark">
+                   <img src="/img/forth-3 copy.png" class="card-img-top" alt="...">
+                
+                 </div>
+               </div>
+               <div class="col">
+                 <div class="card bg-dark">
+                   <img src="/img/forth-4 copy.png" class="card-img-top" alt="...">
+                  
+                 </div>
+               </div>
+             </div>
+           </div>
+          </div>
+         </div>
+       
+         </section>
+
+
+
+         <!-- footer-1 -->
+         <div  class="row">
+          <div class=" footer-1 footer col-12 bg-dark">
+            <div class="footer-1-L">
+           <a href="">Contact</a>
+            <a href="">Career <i class=" ms-2 pe-4 fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a href="">Subscribe <i class=" ms-2 pe-4 fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div id="" class=" footer-1-R bg-dark">
+            <a href=""><i class="fa-solid fa-globe"></i>Select Language</a>
+          </div>
+        </div> 
+         </div>
+
+
+          <!-- footer-1 -->
+         <div  class="row">
+          <div class=" footer-2 footer col-12 bg-dark ">
+            <div class="footer-2-L ">
+              <a class="pe-4" href="">Corporate</a>
+              <a class="pe-4"href="">Privacy</a>
+              <a class="pe-4" href="">Cookie Settings</a>
+              <a class="pe-4" href="">Cookie Policy</a>
+              <a class="pe-4" href="">Legal</a>
+              <a class="pe-4" href="">Do Not Sell My Personal Information</a>
+          </div>
+          <div id="" class="pe-4 footer-2-R bg-dark">
+            <span><i class="pe-4 fa-brands fa-x-twitter"></i></span>
+            <span><i class="pe-4 fa-brands fa-instagram"></i></span>
+            <span><i class="pe-4 fa-brands fa-youtube"></i></span>
+            <span><i class="pe-4 fa-brands fa-facebook"></i></span>
+            <span><i class="pe-4 fa-brands fa-discord"></i></span>
+          </div>
+        </div> 
+         </div>
+
+         <div  class="row">
+          <div class=" footer-3 footer col-12 bg-dark ">
+            <div class="footer-3-L ">
+              <a href="">Rock Star</a>
+          </div>
+          <div id="" class="pe-4 footer-3-M bg-dark">
+            <a class="me-4" href=""> New York</a>
+            <a class="me-4" href="">Londen</a>
+            <a class="me-4" href="">Paris</a>
+            <a class="me-4" href="">Bogotá</a>
+          </div>
+
+          <div id="" class="pe-4 footer-3-R bg-dark">
+            <a href="">MCMXCVIII</a>
+          </div>
+        </div> 
+         </div>
+
+
+         
+        
+
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+.col-2{
+    height: 76px;
+   
+}
+.col-3{
+    height: 76px;
+    
+}
+.col-7{
+    height: 76px;
+}
+@media screen and (max-width:1069px) {
+    #hide, #search{
+        display: none;
+        
+    }
+ 
+    .navbar-toggler-icon{
+       position: absolute;
+       right: 700px;
+     
+    } 
+}
+@media screen and (max-width:991px) {
+   .col-2{
+    order: 2;
+   }
+   .col-2 img{
+    position: relative;
+    right: 150px;
+   }
+   .col-3{
+    
+    order: 3;
+}
+   #user{
+    position: absolute;
+    right: 20px;
+    }
+.col-7{
+    order: 1;
+   
+}
+
+
+}
+.carousel-indicators {
+    position: absolute;
+    top: 510px;
+}
+#head{
+    display: flex;
+}
+.align-h{
+    margin-left: 4rem;
+}
+.align-p{
+    margin-top: 7rem;
+    margin-left: 4rem;
+}
+.align-btn{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 15rem;
+    height: 4rem;
+    border-color: #fff;
+    border-radius: 9px;
+}
+#third .card{
+   
+    background-color: black;
+    color: #fff;
+    font-size: large;
+    font-weight: 800;
+   
+}
+
+.footer-1{
+    height: 15rem; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer a{
+text-decoration: none;
+color: #fff;
+}
+.footer a:hover{
+    color: red;
+    }
+.footer-2{
+    height: 14rem; 
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+   
+}
+.footer-2-L{
+    display: flex; 
+}
+.footer-2-R{
+    display: flex;
+   
+}
+.footer-3{
+    height: 7rem; 
+    display: flex;
+    justify-content: space-evenly;
+  padding-top: 40px;
+}
+.footer-3-M{
+    display: flex;    
+}
+#footer-1 a{
+    text-decoration: none;
+    color: #fff;
+}
+#footer-3 a{
+    text-decoration: none;
+    color: #fff;
+}
+#footer-3 a:hover{
+    color: red;
+}
+
+
+
+
+@media screen and (max-width:774px) {
+    .footer-1-L{
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+    }
+    .footer-2-L{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-2{
+        
+       flex-direction: column-reverse;
+       
+    }.footer-3{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .footer-3{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    #footer-L a{
+ display: block;
+    }
+    #footer--1{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+    }
+  
+   
+}
+@media screen and (max-width:1068px){
+    #footer-L {
+        display: inline;
+        padding-left: 25px;
+           }
+}
+
